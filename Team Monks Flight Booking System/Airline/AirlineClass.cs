@@ -8,7 +8,7 @@ namespace Team_Monks_Flight_Booking_System.Airline
     // price cut event delegate declaration
     public delegate void priceCutDelegate(double previousPrice, double newPrice, string threadName);
 
-    public class AirlineClass
+    public class AirlineClass: IAirline
     {
         // price cut event declaration
         public static event priceCutDelegate priceCutEvent;

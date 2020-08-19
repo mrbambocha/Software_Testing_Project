@@ -64,7 +64,6 @@ namespace Team_Monks_Flight_Booking_System.Airline
             }
             return false;
         }
-
         public static bool isValidCreditCardFormat()
         {
             if (confirmedOrderObject.CardNo > creditCardStart && confirmedOrderObject.CardNo < creditCardEnd)
@@ -76,7 +75,6 @@ namespace Team_Monks_Flight_Booking_System.Airline
                 return false;
             }
         }
-
         public static double calculateTotalAmount()
         {
             double ticketPrice = (confirmedOrderObject.UnitPrice) * (confirmedOrderObject.NumTickets);

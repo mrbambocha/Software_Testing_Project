@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using Team_Monks_Flight_Booking_System.TravelAgency;
 
 namespace Team_Monks_Flight_Booking_System.Utility
 {
-    public class EncoderDecoderClass
+    public class EncoderDecoderClass 
     {
         // The Encoder will convert an OrderObject into a string
         public static string encodeOrderObject(OrderClass orderObject)
@@ -30,5 +31,7 @@ namespace Team_Monks_Flight_Booking_System.Utility
 
             return outputOrderObject;
         }
+
+        
     }
 }

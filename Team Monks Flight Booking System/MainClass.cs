@@ -4,17 +4,13 @@ using Team_Monks_Flight_Booking_System.Utility;
 using Team_Monks_Flight_Booking_System.Airline;
 using Team_Monks_Flight_Booking_System.TravelAgency;
 
-/* This is a 2 member team project
- * Team name - Team 598 Monks
- * Siddharth Jain, Girish Patni
- * Environment - VS 2013
- * */
 namespace Team_Monks_Flight_Booking_System
 {
     class MainClass
     {
         public static MultiCellBufferClass buffer = new MultiCellBufferClass();
-        private static AirlineClass airlineObject = new AirlineClass(buffer);
+        //Implemented the Dependency Injection
+        private static AirlineDependencyInjection airlineObject = new AirlineDependencyInjection(new AirlineClass(buffer));
         private static TravelAgencyClass travelAgencyObject = new TravelAgencyClass(buffer);
         private static ConfirmationBufferClass confirmationBuffer = new ConfirmationBufferClass();
 

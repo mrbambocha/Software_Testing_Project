@@ -17,3 +17,10 @@ C:\Users\airbo\Downloads\Compressed\Flight-Booking-System-master\Flight-Booking-
 C:\Users\airbo\Downloads\Compressed\Flight-Booking-System-master\Flight-Booking-System-master\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.csproj.CoreCompileInputs.cache
 C:\Users\airbo\Downloads\Compressed\Flight-Booking-System-master\Flight-Booking-System-master\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.exe
 C:\Users\airbo\Downloads\Compressed\Flight-Booking-System-master\Flight-Booking-System-master\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.pdb
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\bin\Debug\Team Monks Flight Booking System.exe.config
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\bin\Debug\Team Monks Flight Booking System.exe
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\bin\Debug\Team Monks Flight Booking System.pdb
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.csprojAssemblyReference.cache
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.csproj.CoreCompileInputs.cache
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.exe
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.pdb
