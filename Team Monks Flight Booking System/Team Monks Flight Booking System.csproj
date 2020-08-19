@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Airline\AirlineClass.cs" />
+    <Compile Include="Airline\AirlineDependencyInjection.cs" />
+    <Compile Include="Airline\IAirline.cs" />
     <Compile Include="Airline\OrderProcessingClass.cs" />
     <Compile Include="TravelAgency\ConfirmationBufferClass.cs" />
     <Compile Include="TravelAgency\TravelAgencyClass.cs" />

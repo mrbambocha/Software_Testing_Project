@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Team_Monks_Flight_Booking_System.Airline
 {
-    interface IAirline
+    public interface IAirline
     {
         void runAirline();
         double getPriceFromPricingModel();

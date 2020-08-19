@@ -38,7 +38,7 @@ namespace Team_Monks_Flight_Booking_System
                 travelAgency[i].Name = "Travel Agency[" + (i + 1) + "]";
                 travelAgency[i].Start();
             }
-
+            
             // confirmation buffer's event handler subscribes to order processing class's order confirm event
             OrderProcessingClass.orderConfirmationEvent += new orderConfirmationDelegate(confirmationBuffer.orderConfirmationEventHandler);
         }
