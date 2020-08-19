@@ -34,8 +34,17 @@
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +56,24 @@
     <Compile Include="Airline\AirlineDependencyInjection.cs" />
     <Compile Include="Airline\IAirline.cs" />
     <Compile Include="Airline\OrderProcessingClass.cs" />
+    <Compile Include="DatabaseInteraction\DataLayer\TicketBookingInfo.cs">
+      <DependentUpon>TicketBookingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseInteraction\DataLayer\TicketBookingModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketBookingModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseInteraction\DataLayer\TicketBookingModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketBookingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseInteraction\DataLayer\TicketBookingModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketBookingModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="TravelAgency\ConfirmationBufferClass.cs" />
     <Compile Include="TravelAgency\TravelAgencyClass.cs" />
     <Compile Include="Utility\EncoderDecoderClass.cs" />
@@ -57,8 +84,31 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <EntityDeploy Include="DatabaseInteraction\DataLayer\TicketBookingModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TicketBookingModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DatabaseInteraction\DataLayer\TicketBookingModel.edmx.diagram">
+      <DependentUpon>TicketBookingModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="DatabaseInteraction\DataLayer\TicketBookingModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TicketBookingModel.Context.cs</LastGenOutput>
+      <DependentUpon>TicketBookingModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="DatabaseInteraction\DataLayer\TicketBookingModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TicketBookingModel.edmx</DependentUpon>
+      <LastGenOutput>TicketBookingModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

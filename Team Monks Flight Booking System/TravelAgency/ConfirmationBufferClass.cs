@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity.Core;
 
 namespace Team_Monks_Flight_Booking_System.TravelAgency
 {
@@ -6,7 +7,7 @@ namespace Team_Monks_Flight_Booking_System.TravelAgency
     class ConfirmationBufferClass
     {
         private object confirmBufferLock = new object();
-        
+        private DatabaseInteraction.DataLayer.ticketdbEntities entities = new DatabaseInteraction.DataLayer.ticketdbEntities();
         // Event handler for order confirmation event
         public void orderConfirmationEventHandler(OrderClass confirmedOrder, double totalAmountCharged)
         {
@@ -18,6 +19,15 @@ namespace Team_Monks_Flight_Booking_System.TravelAgency
                 Console.WriteLine("Number Of Tickets:" + confirmedOrder.NumTickets);
                 Console.WriteLine("Unit Price       :" + confirmedOrder.UnitPrice);
                 Console.WriteLine("Total Price      :" + totalAmountCharged + "\n\n");
+                entities.TicketBookingInfoes.Add(new DatabaseInteraction.DataLayer.TicketBookingInfo
+                {
+                    NumberOfTickets = confirmedOrder.NumTickets,
+                    ReceiverID = confirmedOrder.ReceiverID,
+                    SenderID = confirmedOrder.SenderId,
+                    TotalAmountCharged = totalAmountCharged.ToString(),
+                    UnitPrice = confirmedOrder.UnitPrice.ToString()
+                });
+                entities.SaveChanges();
             }
         }
     }

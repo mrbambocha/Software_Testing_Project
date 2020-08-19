@@ -24,3 +24,8 @@ C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booki
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.csproj.CoreCompileInputs.cache
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.exe
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.pdb
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\bin\Debug\EntityFramework.dll
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\bin\Debug\EntityFramework.xml
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\Team Monks Flight Booking System\obj\Debug\Team Monks Flight Booking System.csproj.CopyComplete
