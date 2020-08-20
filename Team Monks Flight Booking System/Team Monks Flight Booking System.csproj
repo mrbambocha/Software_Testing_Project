@@ -74,7 +74,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TicketBookingModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="TravelAgency\BookingProcessWithMoq.cs" />
     <Compile Include="TravelAgency\ConfirmationBufferClass.cs" />
+    <Compile Include="TravelAgency\ILogicLayer.cs" />
+    <Compile Include="TravelAgency\LogicLayer.cs" />
     <Compile Include="TravelAgency\TravelAgencyClass.cs" />
     <Compile Include="Utility\EncoderDecoderClass.cs" />
     <Compile Include="MainClass.cs" />

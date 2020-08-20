@@ -24,3 +24,5 @@ C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestingUsingNSubsti
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestingUsingNSubstitute\obj\Debug\UnitTestingUsingNSubstitute.csproj.CopyComplete
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestingUsingNSubstitute\obj\Debug\UnitTestingUsingNSubstitute.dll
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestingUsingNSubstitute\obj\Debug\UnitTestingUsingNSubstitute.pdb
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestingUsingNSubstitute\bin\Debug\EntityFramework.dll
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestingUsingNSubstitute\bin\Debug\EntityFramework.xml

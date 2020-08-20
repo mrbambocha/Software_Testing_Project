@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTestingFlightBookingS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingUsingNSubstitute", "UnitTestingUsingNSubstitute\UnitTestingUsingNSubstitute.csproj", "{33C7DAA4-D6EC-4502-9536-CFC5153A8BD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMockingDatabaseConnection", "UnitTestMockingDatabaseConnection\UnitTestMockingDatabaseConnection.csproj", "{F1DEDACF-C2FC-4209-8194-1DA7E0D66C37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{33C7DAA4-D6EC-4502-9536-CFC5153A8BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33C7DAA4-D6EC-4502-9536-CFC5153A8BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33C7DAA4-D6EC-4502-9536-CFC5153A8BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DEDACF-C2FC-4209-8194-1DA7E0D66C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DEDACF-C2FC-4209-8194-1DA7E0D66C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DEDACF-C2FC-4209-8194-1DA7E0D66C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DEDACF-C2FC-4209-8194-1DA7E0D66C37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

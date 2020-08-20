@@ -15,3 +15,5 @@ C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestProject1\obj\De
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestProject1\obj\Debug\SimpleTestingFlightBookingSystem.csproj.CopyComplete
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestProject1\obj\Debug\SimpleTestingFlightBookingSystem.dll
 C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestProject1\obj\Debug\SimpleTestingFlightBookingSystem.pdb
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestProject1\bin\Debug\EntityFramework.dll
+C:\Users\airbo\Documents\GitHub\Software_Testing_Project\UnitTestProject1\bin\Debug\EntityFramework.xml
