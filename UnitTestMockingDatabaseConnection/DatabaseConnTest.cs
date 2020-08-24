@@ -18,7 +18,8 @@ namespace UnitTestMockingDatabaseConnection
 
             BookingProcessWithMoq logicLayerProcessingWithMoq = new BookingProcessWithMoq();
             var result = logicLayerProcessingWithMoq.GetTicketInformation(mockDbContext.Object, ticketID);
-            Assert.IsTrue(result == ticketID);
+            Assert.IsTrue(result
+                == ticketID);
 
         }
     }
